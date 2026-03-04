@@ -4,7 +4,7 @@ import dotenv from "dotenv";
 import authRoutes from "./routes/authRoutes.js"
 import profileRoutes from "./routes/profileRoutes.js";
 
-import errorMiddleware from "./middleware/errormiddleware.js";
+import errorMiddleware from "./middleware/errorMiddleware.js";
 
 
 
