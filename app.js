@@ -20,9 +20,9 @@ app.get("/", (req, res) => {
 });
 
 //auth
-app.use("/api/auth", authRoutes);
+app.use("/auth", authRoutes);
 
-app.use("/api/profile", profileRoutes);
+app.use("/profile", profileRoutes);
 
 
 // error middleware (ALWAYS LAST)
